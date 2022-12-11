@@ -1,0 +1,9 @@
+kotlin
+dart/flutter
+java
+python
+react js
+typescript
+database/postgres
+node js
+angular 
