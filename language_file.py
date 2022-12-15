@@ -4,6 +4,8 @@ class LanguageClass:
         content = open("coding_languages.txt", "r")
         # the readlines will output code in the form of a list []
         self.code = content.readlines()
+        lang_list = open("coding_languages.txt", "r")
+        self.code_line = lang_list.read()
 
     # deals with the counter of how many times the user wants to change the code list.
     @staticmethod
